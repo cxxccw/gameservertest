@@ -1,0 +1,16 @@
+CREATE TABLE FF3 (
+  name int UNSIGNED,
+	hp int UNSIGNED,
+	fullhp tinyint UNSIGNED,
+	mp tinyint UNSIGNED,
+	fullmp tinyint UNSIGNED,
+	str tinyint UNSIGNED,
+	agi tinyint UNSIGNED,
+	def tinyint UNSIGNED,
+	int tinyint UNSIGNED,
+	sta tinyint UNSIGNED,
+	money smallint UNSIGNED,
+	exp smallint UNSIGNED,
+	lv tinyint UNSIGNED
+)
+);
