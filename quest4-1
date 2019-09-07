@@ -1,0 +1,2 @@
+echo password_hash($pass,PASSWORD_DEFAULT,['cost' =>10]);
+echo $hash,"\n";
