@@ -1,5 +1,5 @@
 CREATE TABLE FF3 (
-  name int UNSIGNED,
+  name VARCHAR UNISIGNED,
 	hp int UNSIGNED,
 	fullhp tinyint UNSIGNED,
 	mp tinyint UNSIGNED,
