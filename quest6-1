@@ -1,1 +1,14 @@
+BIGIN; --トランザクション開始
+
+--userテーブルの残高(money)を取得
+SELECT*FROM user WHERE user_id = 2016 FOR UPDATE;
+
+--uuserテーブルのmoneyの値を100,減算
+UPDATE user SET money - 100 WHERE user_od =2016;
+
+--ser_cardテーブルにinsert
+INSERT INTO user_card(user_id, card_id , created)
+       VALUES(2016,114,now());
+COMMIT;　--トランザクション終了
+
 
