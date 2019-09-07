@@ -18,6 +18,9 @@ function item_use($pc, $item_id){
        case 5: //経験値が+1000されるアイテム(アイテムID: 5)
          $pc->set_exp($pc->get_exp()+1000);
           break;
+       default;
+          echo'アイテムがない';
+          break;
    
    }
 }
