@@ -1,1 +1,1 @@
-$pdo = new PDO(charset=utf8mb4;$test, $pass, $database, $driver_options);
+$pdo = new PDO("mysql:charset=utf8mb4;,$test, $pass, $database, $driver_options);
