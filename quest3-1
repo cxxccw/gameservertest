@@ -1,1 +1,1 @@
-$pdo = new PDO("mysql:charset=utf8mb4;,$test, $pass, $database, $driver_options);
+$pdo = new PDO("mysql:host=192.168.137.160;dbname=database;charset=utf8mb4;,$test, $pass,);
