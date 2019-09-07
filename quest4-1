@@ -1,1 +1,4 @@
-
+$sql = 'INSERT card SET'
+$pre = 
+$res = 
+var_dump(res);
