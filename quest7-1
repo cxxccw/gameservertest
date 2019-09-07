@@ -1,1 +1,24 @@
+<?php
+
+function item_use($pc, $item_id){
+   switch($iten_id{
+       case 1:  //HPを100点回復するアイテム(アイテムID: 1)
+          $pc->set_hp($pc->get_hp()+100); 
+          break;
+       case 2: //MPを50点回復するアイテム(アイテムID: 2)
+          $pc->set_mp($pc->get_mp()+50);
+          break;
+       case 3:  //HPを50%回復するアイテム(アイテムID: 3)
+          $pc->set_hp($pc->get_hp()+(int)($pc->get_max_hp()/0.5));
+          break;
+       case 4:  //HPを50%, MPを50%回復するアイテム(アイテムID: 4)
+          $pc->set_hp($pc->get_hp()+(int)($pc->get_max_hp()/0.5));
+          $pc->set_mp($pc->get_mp()+(int)($pc->get_max_mp()/0.5));
+          break:
+       case 5: //経験値が+1000されるアイテム(アイテムID: 5)
+         $pc->set_exp($pc->get_exp()+1000);
+          break;
+   
+   }
+}
 
